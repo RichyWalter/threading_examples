@@ -6,7 +6,16 @@ public class calc_pi {
 	public static void main(String[] args) {
 
 		int anz = getInput();
+
+		long startTime = System.currentTimeMillis();
+		
 		double piValue = calcPi(anz);
+		
+		long endTime = System.currentTimeMillis();
+        double dur = (endTime-startTime)*0.001; 
+
+        System.out.println("Benoetigte Zeit in Sekunden: " + dur);
+		
 		System.out.println("Pi ist ungefaehr: " + piValue + ".");
 	} 
 
