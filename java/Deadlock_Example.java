@@ -4,7 +4,7 @@
  * Während eine Ressource gebunden ist, versucht der andere Thread diese Ressource für sich zu binden. 
  * Ergebniss dieses Versuchs ist eine Verklemmung, die dafür sorgt, dass das Programm nie terminiert.
  **/
-public class Deadlock {
+public class Deadlock_Example {
     public static void main(String[] args){
       //Zwei Ressourcen werden angelegt
       //Diese Ressourcen sollen dann von den zwei Threads gebunden werden
