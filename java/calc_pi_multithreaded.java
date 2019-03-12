@@ -5,11 +5,12 @@ public class calc_pi_multithreaded{
 
     public static void main(String ... args) throws InterruptedException {
 
-        int threadCount = 4;
+        int threadCount = 4;     //Anzahl der Threads definieren
         int N = getInput();      //1000000000;
 
         long startTime = System.currentTimeMillis();
 
+        //Threads erstellen
         PiThread[] threads = new PiThread[threadCount];
         for (int i = 0; i < threadCount; i++) {
             threads[i] = new PiThread(threadCount, i, N);
@@ -18,6 +19,8 @@ public class calc_pi_multithreaded{
         for (int i = 0; i < threadCount; i++) {
             threads[i].join();
         }
+
+        //addieren der Einzelergebnisse der Threads
         double pi = 0;
         for (int i = 0; i < threadCount; i++) {
             pi += threads[i].getSum();
