@@ -1,7 +1,10 @@
+package Deadlock;
+
 /**
- * Demonstratoin eines Deadlocks in Java. Zwei Threads binden Ressourcen ohne sie wieder frei zu geben.
- * Während eine Ressource gebunden ist, versucht der andere Thread diese Ressource für sich zu binden. 
- * Ergebniss dieses Versuchs ist eine Verklemmung, die dafür sorgt, dass das Programm nie terminiert.
+ * Demonstratoin eines Deadlocks in Java. Zwei Threads binden Ressourcen ohne
+ * sie wieder frei zu geben. Während eine Ressource gebunden ist, versucht der
+ * andere Thread diese Ressource für sich zu binden. Ergebniss dieses Versuchs
+ * ist eine Verklemmung, die dafür sorgt, dass das Programm nie terminiert.
  **/
 public class Deadlock_Example {
     public static void main(String[] args){

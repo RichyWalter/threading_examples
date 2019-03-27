@@ -1,3 +1,5 @@
+package Synchronized;
+
 public class AusgabeThread extends Thread
 {
    private String s1;

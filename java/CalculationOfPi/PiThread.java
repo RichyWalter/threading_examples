@@ -1,3 +1,5 @@
+package CalculationOfPi;
+
 public class PiThread extends Thread {
 
     private final int threadCount;

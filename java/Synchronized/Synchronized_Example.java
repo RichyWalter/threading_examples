@@ -1,7 +1,11 @@
+package Synchronized;
+
 /**
- * Demonstratoin der Verwendung von synchronized Blocks in Java
- * Zwei Threads sollen jeweils zwei Strings ausgeben. Dabei wird der erste String des Threads einfach so ausgegeben. 
- * Die zweite Ausgabe jedoch erfolgt in einem synchronized Block. Die Ausgabe der Strings "A" und "B" erfolgt also nicht durcheinander sondern synchronisiert
+ * Demonstratoin der Verwendung von synchronized Blocks in Java Zwei Threads
+ * sollen jeweils zwei Strings ausgeben. Dabei wird der erste String des Threads
+ * einfach so ausgegeben. Die zweite Ausgabe jedoch erfolgt in einem
+ * synchronized Block. Die Ausgabe der Strings "A" und "B" erfolgt also nicht
+ * durcheinander sondern synchronisiert
  **/
 
 public class Synchronized_Example

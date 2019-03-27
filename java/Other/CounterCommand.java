@@ -1,3 +1,5 @@
+package Other;
+
 class CounterCommand implements Runnable
 {
   @Override public void run()

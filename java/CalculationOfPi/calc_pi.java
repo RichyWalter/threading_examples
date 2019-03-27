@@ -1,3 +1,5 @@
+package CalculationOfPi;
+
 import java.util.Scanner;
 
 public class calc_pi {
