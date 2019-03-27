@@ -31,7 +31,7 @@ public class Deadlock_Example {
       };
   
       //Hier wird der zweite Thread angelegt
-      //Dieses bindet zunächst ressource2 und versucht anschliessend ressource1 zu binden 
+      //Dieser bindet zunächst ressource2 und versucht anschliessend ressource1 zu binden 
       Thread t2 = new Thread(){
         public void run(){
           //ressource2 wird gebunden

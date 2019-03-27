@@ -20,7 +20,7 @@ public class calc_pi_multithreaded{
             threads[i].join();
         }
 
-        //addieren der Einzelergebnisse der Threads
+        //Addieren der Einzelergebnisse der Threads
         double pi = 0;
         for (int i = 0; i < threadCount; i++) {
             pi += threads[i].getSum();
@@ -42,7 +42,7 @@ public class calc_pi_multithreaded{
 		System.out.println("Wie viele Berechnungen sollen verwendet werden um Pi zu approximieren?");
 		try {
 			anz = Integer.parseInt(input.nextLine());
-		} //n auf max int setzen wenn der Nutzer was zu großes eingibt 
+		} //n auf max int setzen wenn der Nutzer eine zu große Zahl eingibt 
 		catch (NumberFormatException e) {
 			System.out.println("n ist zu gross, es wird n = max int gesetzt");
 			anz = Integer.MAX_VALUE;
