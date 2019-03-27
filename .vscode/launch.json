@@ -1,0 +1,75 @@
+{
+    // Verwendet IntelliSense zum Ermitteln möglicher Attribute.
+    // Zeigen Sie auf vorhandene Attribute, um die zugehörigen Beschreibungen anzuzeigen.
+    // Weitere Informationen finden Sie unter https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Synchronized_Example",
+            "request": "launch",
+            "mainClass": "Synchronized.Synchronized_Example",
+            "projectName": "threading_examples_d7d3a965"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Deadlock_Example",
+            "request": "launch",
+            "mainClass": "Deadlock.Deadlock_Example",
+            "projectName": "threading_examples_d7d3a965"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - calc_pi_multithreaded",
+            "request": "launch",
+            "mainClass": "CalculationOfPi.calc_pi_multithreaded",
+            "projectName": "threading_examples_d7d3a965"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - calc_pi",
+            "request": "launch",
+            "mainClass": "CalculationOfPi.calc_pi",
+            "projectName": "threading_examples_d7d3a965"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Deadlock_Example",
+            "request": "launch",
+            "mainClass": "Deadlock_Example",
+            "projectName": "threading_examples_d7d3a965"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Synchronized_Example",
+            "request": "launch",
+            "mainClass": "Synchronized_Example",
+            "projectName": "threading_examples_d7d3a965"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - calc_pi_multithreaded",
+            "request": "launch",
+            "mainClass": "calc_pi_multithreaded"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - calc_pi",
+            "request": "launch",
+            "mainClass": "calc_pi"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-multithreading_java",
+            "request": "launch",
+            "mainClass": "multithreading_java"
+        }
+    ]
+}
