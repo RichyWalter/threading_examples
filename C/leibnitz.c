@@ -1,6 +1,6 @@
 //include libraries
 #include<stdio.h>
-#include<pthread.h> // for threads
+#include<pthread.h> // for threads (Linux)
 #include<unistd.h>  // fork
 #include<math.h>
 #include<stdlib.h> // atoi ...
